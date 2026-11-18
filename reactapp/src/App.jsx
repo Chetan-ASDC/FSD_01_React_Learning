@@ -1,14 +1,27 @@
-import React from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import CardsProfile from './components/CardsProfile'
+
+
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <h1>Namaste Bharat</h1>
-    <p>We are Learning React in 2026 with Chetan Sharma Sir</p>
-    <Footer/>
+
+      <Navbar />
+      <div className="container border border-warning border-3">
+        <h1>Namaste Bharat</h1>
+        <p className='text-success'>We are Learning React in 2026 with Chetan Sharma Sir</p>
+
+      </div>
+      <div className="container my-3">
+        <div className="row justify-content-between">
+
+        <CardsProfile />
+        </div>
+      </div>
+      <Footer />
+
     </>
 
   )
