@@ -8,7 +8,7 @@ import dhoni from '../assets/dhoni.avif'
 function CardsProfile() {
   return (
     <>
-        <Card person = {{ name : "Virat", imageUrl : virat }}/>
+        <Card person = {{ name : "Virat", imageUrl : virat , size : '100px'}}/>
         <Card person = {{ name : "Sachin", imageUrl : sachin }}/>
         <Card person = {{ name : "Dhoni", imageUrl : dhoni }}/>
         {/* <Card name= "Virat" imageUrl = {virat}/> */}
